@@ -67,24 +67,24 @@ users:
   # 第二个用户配置
   # 以下配置为信息收集
   # 这里默认仅适配宜宾学院，其他学校自行修改
-  - user:
+  -    user:
         # 任务类型（收集：0、签到：1、查寝2）
         type: 0
         # 学校名称
         schoolName: '宜宾学院'
         # 账号
-        username: ''
+        username: '200201307'
         # 密码
-        password: ''
+        password: 'yu990520'
         # 定位位置信息
-        address: '四川省（自己改）'
+        address: '四川省'
         #sendKey 当sendType为0时代表邮箱，当sendType为1时代表接收消息的QQ号码，当sendType为2时代表接收消息的pushplus token
-        sendKey: ''
+        sendKey: '1289326478@qq.com'
         # 附上经纬度查询地址（请自行选择自己的学校地址，address，lon，lat都要填查询到的）：http://api.map.baidu.com/lbsapi/getpoint/index.html
         # 经纬度信息
-        lon: 104.6191824
+        lon: 105.377578
         #经纬度信息
-        lat: 28.800613
+        lat: 30.879247
         # 是否检查表单的标题（1代表检查，0代表不检查）
         checkTitle: 1
         # 代理ip信息（若无可忽略本设置、该配置仅供您所在环境ip被ban且自己拥有代理ip使用）（格式为：网络协议://ip地址:端口   如：http://127.0.0.1:7890）
@@ -95,10 +95,10 @@ users:
         forms:
             - form:
                   title: 今日具体所在地
-                  value: 四川省/宜宾市/翠屏区
+                  value: 四川省/遂宁市/射洪市
             - form:
                   title: 是否在校
-                  value: 是
+                  value: 否
             - form:
                   title: 上午体温
                   value: '36.2'
